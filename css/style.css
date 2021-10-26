@@ -188,3 +188,53 @@ table {
     background: #FF7400;
     border-radius: 50px;
 }
+
+.box{
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    width: 349px;
+    height: 328px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.about{
+    position: relative;
+display: flex;
+    justify-content: space-evenly;
+    bottom: -170px;
+
+}
+.box img{
+    width: 126px;
+    height: 104px;
+    left: 280px;
+    top: 728px;
+
+}
+.box h3{
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+.box p{
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+
+}
+.box, p,h3, img{
+
+
+}
