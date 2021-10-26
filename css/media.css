@@ -1,0 +1,33 @@
+@media screen and (max-width:400px) {
+    .header_logo img{
+        width: 50px;
+    }
+    .wrapper{
+        max-width: 340px;
+        padding: 0 10px;
+    }
+    .header_top{
+        padding-top: 20px;
+    }
+    .header_menu{
+        display: none;
+    }
+    .nav_btm_mob{
+        display: flex;
+    }
+    .header_title h2{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .header_title h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header_title::before,
+    .header_title::after{
+        display: none;
+    }
+    .header_title{
+        text-align: center;
+    }
+}
