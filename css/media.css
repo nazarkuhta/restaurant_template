@@ -30,4 +30,29 @@
     .header_title{
         text-align: center;
     }
+    .about{
+        flex-direction: column;
+        display: flex;
+        padding-top: 15px;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        align-content: center;
+    }
+    .box p{
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .box h3{
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 30px;
+    }
+
 }
